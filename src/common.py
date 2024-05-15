@@ -18,6 +18,7 @@ def get_hand_avg_pos(hand_landmarks, frame_shape):
     # 이미지 좌표로 변환
     return int(avg_x * frame_shape[1]), int(avg_y * frame_shape[0])
 
+
 def calculate_distance(hand1, hand2):
     """
     두 손의 검지 랜드마크를 사용하여 거리 계산
