@@ -22,6 +22,19 @@ def eye_center(frame, face_landmarks, LEFT_EYE_LANDMARKS, RIGHT_EYE_LANDMARKS):
     return int(eye_center[0]), int(eye_center[1])
 
 
+def calculate_ear(eye):
+    # EAR = (|p2 - p6| + |p3 - p5|) / (2 * |p1 - p4|)
+    A = np.linalg.norm(eye[1] - eye[5])
+    B = np.linalg.norm(eye[2] - eye[4])
+    C = np.linalg.norm(eye[0] - eye[3])
+    ear = (A + B) / (2.0 * C)
+    return ear
+
+
+def get_eye_landmarks(landmarks, eye_landmarks):
+    return np.array([landmarks[i] for i in eye_landmarks])
+
+
 class Face:
     def __init__(self):
         self.mp_face_mesh = mp.solutions.face_mesh
