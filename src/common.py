@@ -30,9 +30,10 @@ def get_hand_avg_pos(hand_landmarks, frame_shape):
     # Convert normalized coordinates to image coordinates
     return int(avg_x * frame_shape[1]), int(avg_y * frame_shape[0])
 
+
 def calculate_distance(hand1, hand2):
     """
-    Calculate the distance between the index finger tips of two hands.
+    Calculate the distance between the index fingertips of two hands.
 
     Args:
     hand1 (object): The first detected hand landmarks.
