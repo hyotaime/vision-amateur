@@ -1,27 +1,33 @@
-# vision-amateur
+# Vision Amateur
 
-Vision Amateur: Provide Intuitive Gestures for Computer Control
+Provide Intuitive Gestures for Computer Control
 
 ## Introduction
-`vision-amateur` is a Python project that uses computer vision to detect facial landmarks and hand gestures. 
-Last year, Apple's Vision Pro showcased wonderful gestures that are easy and intuitive to use. 
+`vision-amateur` is a Python project that uses computer vision to detect facial landmarks and hand gestures to control your computer.
+Last year, Apple showcased the Vision Pro with impressive gestures that are easy and intuitive to use.
 Inspired by this concept, the project aims to provide gestures that make it easier to control the computer, 
-which is why it is named "Vision Amateur."
+which is why it is named "**Vision Amateur**."
 It utilizes libraries such as OpenCV, PyAutoGUI, and MediaPipe to implement features 
 like blink detection, mouse control via eye movements, and zooming through hand gestures.
 
 ## Features
 
-- **Eye Blink Detection:** Detects eye blinks using facial landmarks and performs a mouse click event.
-- **Mouse Control via Eye Movements:** Moves the mouse cursor based on the position of the eyes.
-- **Hand Gesture Recognition:** Recognizes hand gestures to perform actions like clicking and zooming.
-- **Zoom Control:** Uses the distance between two hands to control zoom in and out.
+- **Eye Blink Detection** 
+  - Detects eye blinks using facial landmarks and performs a mouse click event.
+- **Mouse Control via Eye Movements** 
+  - Moves the mouse cursor based on the position of the eyes.
+- **Hand Gesture Recognition** 
+  - Recognizes hand gestures to perform actions like clicking and zooming.
+- **Zoom Control** 
+  - Uses the distance between two hands to control zoom in and out.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- Python 3.x installed on your machine.
+- Python 3.11+ installed on your machine.
+  - I tested it only on Python 3.11.9, but it might work on other versions like 3.8+.
+- A webcam connected to your computer.
 - The following Python libraries:
   - OpenCV (`cv2`)
   - PyAutoGUI
@@ -113,10 +119,11 @@ Contributions are welcome! Please follow these steps to contribute:
 ## References
 
 - PyAutoGUI
-  - [https://pyautogui.readthedocs.io/en/latest/](https://pyautogui.readthedocs.io/en/latest/)
+  - [asweigart/pyautogui](https://github.com/asweigart/pyautogui)
 - MediaPipe
-  - [https://mediapipe.dev/](https://mediapipe.dev/)
-- Special thanks to ChatGPT-4 for assisting me with troubleshooting, annotating, and also improving my poor English.
+  - [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe)
+- Special thanks to ChatGPT-4 
+  - Assisting me with troubleshooting, annotating, and also improving my poor English.
 
 ## License
 
