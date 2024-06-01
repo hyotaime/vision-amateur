@@ -29,7 +29,7 @@ like blink detection, mouse control via eye movements, dragging and zooming thro
 
 | test data | blink detection |
 | --- | --- |
-| ![kevinhart-blink](https://media1.tenor.com/m/r7OYRTWn1C0AAAAC/kevin-hart-stare.gif) | ![blink](https://github.com/hyotaime/vision-amateur/assets/109580929/1113cf4b-f655-444f-acd1-26fa451de934) |
+| ![kevinhart-blink](https://media1.tenor.com/m/r7OYRTWn1C0AAAAC/kevin-hart-stare.gif) | ![blink](https://github.com/hyotaime/vision-amateur/assets/109580929/630a985b-5897-4c2f-ba02-69b0b8fc44e6) |
 
 Image source: [tenor.com](https://tenor.com/ko/view/kevin-hart-stare-blink-really-you-serious-gif-7356251)
 
